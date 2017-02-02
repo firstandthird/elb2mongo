@@ -1,0 +1,42 @@
+{
+  "name": "elb2mongo",
+  "version": "0.0.1",
+  "description": "parse elb logs and import into mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/elb2mongo.git"
+  },
+  "keywords": [
+    "elb",
+    "aws",
+    "mongo",
+    "logs"
+  ],
+  "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/elb2mongo/issues"
+  },
+  "homepage": "https://github.com/firstandthird/elb2mongo#readme",
+  "devDependencies": {
+    "eslint": "^3.14.1",
+    "eslint-config-firstandthird": "^3.2.0",
+    "eslint-plugin-import": "^2.2.0"
+  },
+  "eslintConfig": {
+    "extends": "firstandthird"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "automap": "1.1.0",
+    "elb-log-parser": "0.0.3",
+    "glob": "^7.1.1",
+    "logr": "^1.17.0",
+    "mongodb": "^2.2.22",
+    "yargs": "^6.6.0"
+  }
+}
